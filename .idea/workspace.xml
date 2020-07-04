@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e339199-3b8d-4ce9-9603-1c1405e8cc15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/META-INF/Kalkulator.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ClearListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$DivideListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$EightListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$EqualsListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$FiveListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$FourListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$MinusListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$MultiplyListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$NineListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$OneListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$PlusListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$SevenListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$SixListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ThreeListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$TwoListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ZeroListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners$OneListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners$TwoListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Kalkulator/main/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/FrameCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/MathSymbolsListeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/NumbersListeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/Main.java" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -108,13 +79,29 @@
       <option name="presentableId" value="Default" />
       <updated>1579286737940</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1593892610795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593892610795</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="87" key="CommitChangelistDialog2" timestamp="1593891973055">
+    <state x="294" y="87" key="CommitChangelistDialog2" timestamp="1593892609770">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="294" y="87" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1593891973055" />
+    <state x="294" y="87" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1593892609770" />
+    <state x="420" y="248" key="FileChooserDialogImpl" timestamp="1593893332010">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="420" y="248" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1593893332010" />
     <state width="1200" height="111" key="GridCell.Tab.0.bottom" timestamp="1586455807590">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -131,13 +118,17 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1200" height="111" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1586455807590" />
-    <state x="141" y="135" key="SettingsEditor" timestamp="1593890443114">
+    <state x="141" y="135" key="SettingsEditor" timestamp="1593892792537">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="135" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1593890443114" />
-    <state x="341" y="230" width="639" height="437" key="com.intellij.ide.util.TipDialog" timestamp="1593892118842">
+    <state x="141" y="135" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1593892792537" />
+    <state x="232" y="226" key="Vcs.Push.Dialog.v2" timestamp="1593892617335">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="341" y="230" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1593892118842" />
+    <state x="232" y="226" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1593892617335" />
+    <state x="341" y="230" width="639" height="437" key="com.intellij.ide.util.TipDialog" timestamp="1593893485758">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="341" y="230" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1593893485758" />
   </component>
 </project>
