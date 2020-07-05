@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MathSymbolsListeners {
+public class MathSymbolsListeners extends Listeners {
 
     private static StringBuilder sb = new StringBuilder();
     private static String mathSymbol;

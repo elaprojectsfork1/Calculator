@@ -28,6 +28,7 @@ public class FrameCreator {
     private static JButton buttonDivide;
     private static JButton buttonEquals;
     private static JButton buttonClear;
+    private static JButton buttonClearEntry;
     private static JPanel jPanelGlowny;
     private static JPanel jPanelA;
     private static JPanel jPanelB;
@@ -76,7 +77,7 @@ public class FrameCreator {
 
         buttonEight = new JButton("8");
         buttonEight.setPreferredSize(new Dimension(50, 40));
-        buttonSeven.addActionListener(new NumbersListeners.EightListener());
+        buttonEight.addActionListener(new NumbersListeners.EightListener());
 
         buttonNine = new JButton("9");
         buttonNine.setPreferredSize(new Dimension(50, 40));
@@ -109,8 +110,14 @@ public class FrameCreator {
         buttonClear = new JButton("C");
 //        buttonClear.setPreferredSize(new Dimension(200, 40));
 //        buttonClear.setMargin(new Insets(100,100,100,100));
-        buttonClear.setBounds(70, 75, 150, 50);
-        buttonClear.addActionListener(new ClearListener());
+        buttonClear.setBounds(70, 75, 100, 50);
+        buttonClear.addActionListener(new OtherSymbolsListeners.ClearListener());
+
+        buttonClearEntry = new JButton("CE");
+//        buttonClearEntry.setPreferredSize(new Dimension(200, 40));
+//        buttonClearEntry.setMargin(new Insets(100,100,100,100));
+        buttonClearEntry.setBounds(70, 75, 100, 50);
+        buttonClearEntry.addActionListener(new OtherSymbolsListeners.ClearEntryListener());
 
         obszarPrzyciskow = new GridLayout(5, 3, 5, 5);
         jPanelB = new JPanel(obszarPrzyciskow);
@@ -132,10 +139,11 @@ public class FrameCreator {
 
         JPanel zbiorczy = new JPanel(new GridLayout(2, 1, 5, 5));
         zbiorczy.setPreferredSize(new Dimension(300, 300));
-        jPanelC = new JPanel(new GridLayout(1, 1, 5, 5));
-        jPanelC.setLayout(null);
+        jPanelC = new JPanel(new GridLayout(1, 2, 5, 5));
+//        jPanelC.setLayout(null);
         jPanelC.setPreferredSize(new Dimension(300, 50));
         jPanelC.add(buttonClear);
+        jPanelC.add(buttonClearEntry);
         zbiorczy.add(jPanelC);
         zbiorczy.add(jPanelB);
 
@@ -240,11 +248,11 @@ public class FrameCreator {
 //        }
 //    }
 
-    private static class ClearListener implements ActionListener {
-        public void actionPerformed(ActionEvent e) {
-            jTextArea = null;
-        }
-    }
+//    private static class ClearListener implements ActionListener {
+//        public void actionPerformed(ActionEvent e) {
+//            jTextArea = null;
+//        }
+//    }
 
 //    private static void setCalculationSides() {
 //        if (!sb.toString().equals("")) {
