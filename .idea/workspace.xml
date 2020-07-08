@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e339199-3b8d-4ce9-9603-1c1405e8cc15" name="Default Changelist" comment="">
+    <list default="true" id="7e0585d7-fdf0-40a6-8eee-2f2161634bd6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/META-INF/Kalkulator.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ClearListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$DivideListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$EightListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$EqualsListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$FiveListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$FourListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$MinusListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$MultiplyListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$NineListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$OneListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$PlusListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$SevenListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$SixListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ThreeListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$TwoListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ZeroListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners$OneListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners$TwoListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,26 +45,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1WXCppymINnIyQkTKehRkNztBza" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1eGFPKAadfurUYEnNmYD6TLyPra" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/Main.java" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator-fork1" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="Kalkulator" />
+      <module name="Calculator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="main.*" />
@@ -68,73 +96,98 @@
     </option>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\czest\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e339199-3b8d-4ce9-9603-1c1405e8cc15" name="Default Changelist" comment="" />
-      <created>1579286737940</created>
+      <changelist id="7e0585d7-fdf0-40a6-8eee-2f2161634bd6" name="Default Changelist" comment="" />
+      <created>1593939997361</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1579286737940</updated>
+      <updated>1593939997361</updated>
     </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1593892610795</created>
+    <task id="LOCAL-00001" summary="Create class to store calculation sides">
+      <created>1593972424727</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1593892610795</updated>
+      <updated>1593972424727</updated>
     </task>
-    <task id="LOCAL-00002" summary="Initial Commit">
-      <created>1593893511377</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1593893511377</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Create class to store calculation sides" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create class to store calculation sides" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="294" y="87" key="CommitChangelistDialog2" timestamp="1593893510622">
+    <state x="232" y="151" key="#Project_Structure" timestamp="1594136327333">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="294" y="87" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1593893510622" />
-    <state x="420" y="248" key="FileChooserDialogImpl" timestamp="1593893558688">
+    <state x="232" y="151" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1594136327333" />
+    <state x="94" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594233267954">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="248" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1593893558688" />
-    <state width="1200" height="111" key="GridCell.Tab.0.bottom" timestamp="1586455807590">
+    <state x="94" y="148" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1594233267954" />
+    <state x="294" y="87" width="890" height="816" key="CommitChangelistDialog2" timestamp="1594233410224">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="111" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1586455807590" />
-    <state width="1200" height="111" key="GridCell.Tab.0.center" timestamp="1586455807590">
+    <state x="294" y="87" width="890" height="816" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1594233410224" />
+    <state x="451" y="391" key="FileChooserDialogImpl" timestamp="1594233219270">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="111" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1586455807590" />
-    <state width="1200" height="111" key="GridCell.Tab.0.left" timestamp="1586455807590">
+    <state x="451" y="391" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1594233219270" />
+    <state width="1237" height="142" key="GridCell.Tab.0.bottom" timestamp="1593973391835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="111" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1586455807590" />
-    <state width="1200" height="111" key="GridCell.Tab.0.right" timestamp="1586455807590">
+    <state width="1237" height="142" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1593973391835" />
+    <state width="1237" height="142" key="GridCell.Tab.0.center" timestamp="1593973391835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="111" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1586455807590" />
-    <state x="141" y="135" key="SettingsEditor" timestamp="1593892792537">
+    <state width="1237" height="142" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1593973391835" />
+    <state width="1237" height="142" key="GridCell.Tab.0.left" timestamp="1593973391835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="141" y="135" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1593892792537" />
-    <state x="232" y="226" key="Vcs.Push.Dialog.v2" timestamp="1593893514999">
+    <state width="1237" height="142" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1593973391835" />
+    <state width="1237" height="142" key="GridCell.Tab.0.right" timestamp="1593973391835">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="226" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1593893514999" />
-    <state x="341" y="230" width="639" height="437" key="com.intellij.ide.util.TipDialog" timestamp="1593893485758">
+    <state width="1237" height="142" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1593973391835" />
+    <state x="305" y="192" key="NewModule_or_Project.wizard" timestamp="1594232446725">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="341" y="230" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1593893485758" />
+    <state x="305" y="192" key="NewModule_or_Project.wizard/0.0.1280.984@0.0.1280.984" timestamp="1594232446725" />
+    <state x="432" y="215" key="RollbackChangesDialog" timestamp="1593972453085">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="432" y="215" key="RollbackChangesDialog/0.0.1280.984@0.0.1280.984" timestamp="1593972453085" />
+    <state x="141" y="135" key="SettingsEditor" timestamp="1594233076519">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="141" y="135" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1594233076519" />
+    <state x="232" y="226" key="Vcs.Push.Dialog.v2" timestamp="1594233359397">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="226" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1594233359397" />
+    <state x="92" y="92" width="1096" height="800" key="com.intellij.history.integration.ui.views.RecentChangeDialog" timestamp="1593949317505">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="92" y="92" width="1096" height="800" key="com.intellij.history.integration.ui.views.RecentChangeDialog/0.0.1280.984@0.0.1280.984" timestamp="1593949317505" />
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog" timestamp="1594231072551">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="336" y="317" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1594231072551" />
+    <state x="344" y="386" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1594136182296">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="344" y="386" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.984@0.0.1280.984" timestamp="1594136182296" />
+    <state x="400" y="325" key="git4idea.ui.GitUnstashDialog" timestamp="1593972476275">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="400" y="325" key="git4idea.ui.GitUnstashDialog/0.0.1280.984@0.0.1280.984" timestamp="1593972476275" />
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1594135786583">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="303" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1280.984@0.0.1280.984" timestamp="1594135786583" />
   </component>
 </project>
