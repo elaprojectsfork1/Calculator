@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e0585d7-fdf0-40a6-8eee-2f2161634bd6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/META-INF/Kalkulator.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ClearListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$DivideListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$EightListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$EqualsListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$FiveListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$FourListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$MinusListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$MultiplyListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$NineListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$OneListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$PlusListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$SevenListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$SixListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ThreeListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$TwoListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator$ZeroListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/FrameCreator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners$OneListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners$TwoListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Listeners.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kalkulator/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Listeners.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eGFPKAadfurUYEnNmYD6TLyPra" />
@@ -57,7 +37,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Calculator-fork1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -181,10 +161,18 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="344" y="386" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.984@0.0.1280.984" timestamp="1594136182296" />
-    <state x="400" y="325" key="git4idea.ui.GitUnstashDialog" timestamp="1593972476275">
+    <state x="345" y="284" key="git4idea.merge.GitPullDialog" timestamp="1594318119219">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="400" y="325" key="git4idea.ui.GitUnstashDialog/0.0.1280.984@0.0.1280.984" timestamp="1593972476275" />
+    <state x="345" y="284" key="git4idea.merge.GitPullDialog/0.0.1280.984@0.0.1280.984" timestamp="1594318119219" />
+    <state x="434" y="393" key="git4idea.ui.GitStashDialog" timestamp="1594317948027">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="434" y="393" key="git4idea.ui.GitStashDialog/0.0.1280.984@0.0.1280.984" timestamp="1594317948027" />
+    <state x="400" y="325" key="git4idea.ui.GitUnstashDialog" timestamp="1594317984243">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="400" y="325" key="git4idea.ui.GitUnstashDialog/0.0.1280.984@0.0.1280.984" timestamp="1594317984243" />
     <state x="303" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1594135786583">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
