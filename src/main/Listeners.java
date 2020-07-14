@@ -18,5 +18,6 @@ public class Listeners {
     // test 4 - auto update with webhook - backstroke
     // test 5 webhook
     // test 6 autoupdate app
+    // test 7 pull without upstream
 
 }
