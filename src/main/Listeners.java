@@ -19,5 +19,6 @@ public class Listeners {
     // test 5 webhook
     // test 6 autoupdate app
     // test 7 pull without upstream
+    // test 8 add gitignore
 
 }
