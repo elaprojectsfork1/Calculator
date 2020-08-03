@@ -5,96 +5,121 @@ import java.awt.event.ActionListener;
 import java.util.HashMap;
 import java.util.Map;
 
-public class MathSymbolsListeners extends Listeners {
+public class MathSymbolsListeners {
 
     private static StringBuilder sb = new StringBuilder();
-    private static String mathSymbol;
+    private static String mathSymbol = "";
     private static String stLeft;
     private static String stRight;
     private static int left;
     private static int right;
 
+    private static final String PLUS = "+";
+    private static final String MINUS = "-";
+    private static final String MULTIPLY = "*";
+    private static final String DIVIDE = "/";
+
     public static class PlusListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            setCalculationSides();
-            if (mathSymbol != null) {
-                calculate();
-            } else {
-                mathSymbol = "plus";
+            if (!mathSymbol.equals(PLUS)) {
                 calculate();
             }
-            mathSymbol = "plus";
-            sb = new StringBuilder();
-            if (sb.toString().equals("")) {
-                System.out.print("+");
-                FrameCreator.appendJTextArea("+");
+            setMathSymbol(PLUS);
+            if (stRight == null) {
+                calculate();
             }
+            printSymbol(PLUS);
         }
     }
 
     public static class MinusListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            setCalculationSides();
-            if (mathSymbol != null) {
-                calculate();
-            } else {
-                mathSymbol = "minus";
+            if (!mathSymbol.equals(MINUS)) {
                 calculate();
             }
-            mathSymbol = "minus";
-            sb = new StringBuilder();
-            if (sb.toString().equals("")) {
-                System.out.print("-");
-                FrameCreator.appendJTextArea("-");
+            setMathSymbol(MINUS);
+            if (stRight == null) {
+                calculate();
             }
+            printSymbol(MINUS);
         }
     }
 
     public static class MultiplyListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            setCalculationSides();
-            if (mathSymbol != null) {
-                calculate();
-            } else {
-                mathSymbol = "multiply";
+            if (!mathSymbol.equals(MULTIPLY)) {
                 calculate();
             }
-            mathSymbol = "multiply";
-            sb = new StringBuilder();
-            if (sb.toString().equals("")) {
-                System.out.print("*");
-                FrameCreator.appendJTextArea("*");
+            setMathSymbol(MULTIPLY);
+            if (stRight == null) {
+                calculate();
             }
+            printSymbol(MULTIPLY);
         }
     }
 
     public static class DivideListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            setCalculationSides();
-            if (mathSymbol != null) {
-                calculate();
-            } else {
-                mathSymbol = "divide";
+            if (!mathSymbol.equals(DIVIDE)) {
                 calculate();
             }
-            mathSymbol = "divide";
-            sb = new StringBuilder();
-            if (sb.toString().equals("")) {
-                System.out.print("/");
-                FrameCreator.appendJTextArea("/");
+            setMathSymbol(DIVIDE);
+            if (stRight == null) {
+                calculate();
             }
+            printSymbol(DIVIDE);
         }
     }
 
+//    TODO Handle clicking = as first symbol, and then other
+//    Steps:
+//    1. type 10
+//    2. click =
+//    3. type 5
+//    4. click +
+//    There is error NullPointerException
     public static class EqualsListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            setCalculationSides();
 //            if (!sb.toString().equals("")) {
 //                stRight = sb.toString();
 //                right = Integer.parseInt(stRight);
 //            }
             calculate();
-            sb = new StringBuilder();
+        }
+    }
+
+    public static void appendStringBuilder(long number) {
+        sb.append(number);
+    }
+
+    private static void setMathSymbol(String symbol) {
+        mathSymbol = symbol;
+    }
+
+//    TODO Handle dividing by zero
+//    It should:
+//    + erase previous calculations
+//    + print error message
+//    + not to print previous number after = or keep calculating with other numbers and symbols
+//    - all need to be reset - maybe by the use on C button
+//    - after printing message and clearing previous data, message should dissappear, if new data is provided
+    private static void calculate() {
+        setCalculationSides();
+        if (stRight != null) {
+            if (mathSymbol.equals(DIVIDE) && right == 0) {
+                FrameCreator.setJTextAreaText("");
+                System.out.print("Incorrect operation. You can't divide by zero.");
+                FrameCreator.appendJTextArea("Incorrect operation. You can't divide by zero.");
+                stLeft = null;
+                left = 0;
+            } else {
+                left = getOperation(mathSymbol, left, right);
+                stLeft = left + "";
+                System.out.print("=" + left);
+                FrameCreator.appendJTextArea("=" + left);
+            }
+            stRight = null;
+            right = 0;
         }
     }
 
@@ -107,35 +132,29 @@ public class MathSymbolsListeners extends Listeners {
                 stLeft = sb.toString();
                 left = Integer.parseInt(stLeft);
             }
-        }
-    }
-
-    private static void calculate() {
-        if (stRight != null) {
-//            if (mathSymbol.equals("divide")) {
-//                left = 0;
-//            } else {
-            left = getOperation(mathSymbol, left, right);
-//            }
-            stLeft = left + "";
-            stRight = null;
-            right = 0;
-            System.out.print("=" + left);
-            FrameCreator.appendJTextArea("=" + left);
+            sb = new StringBuilder();
         }
     }
 
     private static int getOperation(String key, int first, int second) {
         Map<String, Integer> map = new HashMap<>();
-        map.put("plus", (first + second));
-        map.put("minus", (first - second));
-        map.put("multiply", (first * second));
-        map.put("divide", (first / second));
+        map.put(PLUS, (first + second));
+        map.put(MINUS, (first - second));
+        map.put(MULTIPLY, (first * second));
+        map.put(DIVIDE, (first / second));
         return map.get(key);
     }
 
-    public static void appendStringBuilder(long number) {
-        sb.append(number);
+    private static void printSymbol(String symbol) {
+        if (left != 0 && !isSymbolPrinted(symbol)) {
+            System.out.print(symbol);
+            FrameCreator.appendJTextArea(symbol);
+        }
+    }
+
+    private static boolean isSymbolPrinted(String symbol) {
+        String text = FrameCreator.getJTextAreaText();
+        return text.endsWith(symbol);
     }
 
 }

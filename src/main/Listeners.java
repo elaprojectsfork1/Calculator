@@ -9,17 +9,59 @@ public class Listeners {
     private static int left;
     private static int right;
 
+    public Listeners() {}
+
     public static void appendStringBuilder(long number) {
         sb.append(number);
     }
-    //test
-    // test2 fork branch
-    //test3 updating repos
-    // test 4 - auto update with webhook - backstroke
-    // test 5 webhook
-    // test 6 autoupdate app
-    // test 7 pull without upstream
-    // test 8 add gitignore
-    // test 9 remove iml file
+
+    public static StringBuilder getSb() {
+        return sb;
+    }
+
+    public static void setSb(StringBuilder sb) {
+        Listeners.sb = sb;
+    }
+
+    public static String getMathSymbol() {
+        return mathSymbol;
+    }
+
+    public static void setMathSymbol(String mathSymbol) {
+        Listeners.mathSymbol = mathSymbol;
+    }
+
+    public static String getStLeft() {
+        return stLeft;
+    }
+
+    public static void setStLeft(String stLeft) {
+        Listeners.stLeft = stLeft;
+    }
+
+    public static String getStRight() {
+        return stRight;
+    }
+
+    public static void setStRight(String stRight) {
+        Listeners.stRight = stRight;
+    }
+
+    public static int getLeft() {
+        return left;
+    }
+
+    public static void setLeft(int left) {
+        Listeners.left = left;
+    }
+
+    public static int getRight() {
+        return right;
+    }
+
+    public static void setRight(int right) {
+        Listeners.right = right;
+    }
+
 
 }

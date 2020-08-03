@@ -3,7 +3,7 @@ package main;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class NumbersListeners extends Listeners {
+public class NumbersListeners {
 
     public static class OneListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
