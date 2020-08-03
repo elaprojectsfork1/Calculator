@@ -4,7 +4,9 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class FrameCreator {
@@ -34,6 +36,7 @@ public class FrameCreator {
     private static JPanel jPanelB;
     private static JPanel jPanelC;
     GridLayout obszarPrzyciskow;
+    private static ArrayList<JButton> numberButtons;
 
     public void createFrame() {
         jFrame = new JFrame("Kalkulator");
@@ -41,71 +44,89 @@ public class FrameCreator {
         jPanelGlowny = new JPanel(uklad);
         jPanelGlowny.setBorder(BorderFactory.createEmptyBorder(10,10,10,10));
 
+        numberButtons = new ArrayList<>();
+
         jPanelA = new JPanel();
         jTextArea = new JTextArea(10, 1);
         jTextArea.setPreferredSize(new Dimension(250, 150));
+        jTextArea.setLineWrap(true);
 //        jTextArea.setEditable(false);
         jPanelA.add(jTextArea);
 
         buttonOne = new JButton("1");
         buttonOne.setPreferredSize(new Dimension(50, 40));
         buttonOne.addActionListener(new NumbersListeners.OneListener());
+        numberButtons.add(buttonOne);
 
         buttonTwo = new JButton("2");
         buttonTwo.setPreferredSize(new Dimension(50, 40));
         buttonTwo.addActionListener(new NumbersListeners.TwoListener());
+        numberButtons.add(buttonOne);
 
         buttonThree = new JButton("3");
         buttonThree.setPreferredSize(new Dimension(50, 40));
         buttonThree.addActionListener(new NumbersListeners.ThreeListener());
+        numberButtons.add(buttonOne);
 
         buttonFour = new JButton("4");
         buttonFour.setPreferredSize(new Dimension(50, 40));
         buttonFour.addActionListener(new NumbersListeners.FourListener());
+        numberButtons.add(buttonOne);
 
         buttonFive = new JButton("5");
         buttonFive.setPreferredSize(new Dimension(50, 40));
         buttonFive.addActionListener(new NumbersListeners.FiveListener());
+        numberButtons.add(buttonOne);
 
         buttonSix = new JButton("6");
         buttonSix.setPreferredSize(new Dimension(50, 40));
         buttonSix.addActionListener(new NumbersListeners.SixListener());
+        numberButtons.add(buttonOne);
 
         buttonSeven = new JButton("7");
         buttonSeven.setPreferredSize(new Dimension(50, 40));
         buttonSeven.addActionListener(new NumbersListeners.SevenListener());
+        numberButtons.add(buttonOne);
 
         buttonEight = new JButton("8");
         buttonEight.setPreferredSize(new Dimension(50, 40));
         buttonEight.addActionListener(new NumbersListeners.EightListener());
+        numberButtons.add(buttonOne);
 
         buttonNine = new JButton("9");
         buttonNine.setPreferredSize(new Dimension(50, 40));
         buttonNine.addActionListener(new NumbersListeners.NineListener());
+        numberButtons.add(buttonOne);
 
         buttonZero = new JButton("0");
         buttonZero.setPreferredSize(new Dimension(50, 40));
         buttonZero.addActionListener(new NumbersListeners.ZeroListener());
+        numberButtons.add(buttonOne);
 
         buttonPlus = new JButton("+");
         buttonPlus.setPreferredSize(new Dimension(50, 40));
         buttonPlus.addActionListener(new MathSymbolsListeners.PlusListener());
+        numberButtons.add(buttonOne);
 
         buttonMinus = new JButton("-");
         buttonMinus.setPreferredSize(new Dimension(50, 40));
         buttonMinus.addActionListener(new MathSymbolsListeners.MinusListener());
+        numberButtons.add(buttonOne);
 
         buttonMultiply = new JButton("*");
         buttonMultiply.setPreferredSize(new Dimension(50, 40));
         buttonMultiply.addActionListener(new MathSymbolsListeners.MultiplyListener());
+        numberButtons.add(buttonOne);
 
         buttonDivide = new JButton("/");
         buttonDivide.setPreferredSize(new Dimension(50, 40));
         buttonDivide.addActionListener(new MathSymbolsListeners.DivideListener());
+        numberButtons.add(buttonOne);
 
         buttonEquals = new JButton("=");
         buttonEquals.setPreferredSize(new Dimension(50, 40));
         buttonEquals.addActionListener(new MathSymbolsListeners.EqualsListener());
+        numberButtons.add(buttonOne);
 
         buttonClear = new JButton("C");
 //        buttonClear.setPreferredSize(new Dimension(200, 40));
@@ -296,6 +317,22 @@ public class FrameCreator {
 
     public static void appendJTextArea(String text) {
         jTextArea.append(text);
+    }
+
+    public static String getJTextAreaText() {
+        return jTextArea.getText();
+    }
+
+    public static void setJTextAreaText(String text) {
+        jTextArea.setText(text);
+    }
+
+    public static void disableButtons() {
+        numberButtons.forEach(button -> button.setEnabled(false));
+    }
+
+    public static void enableButtons() {
+        numberButtons.forEach(button -> button.setEnabled(true));
     }
 
 }
